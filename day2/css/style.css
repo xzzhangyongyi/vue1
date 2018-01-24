@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.ulist {
+    widows: 100%;
+    height: auto;
+}
+
+.ulist>li {
+    width: 149px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    background: red;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.olist {
+    width: 600px;
+    height: 400px;
+}
+
+.olist>li {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
